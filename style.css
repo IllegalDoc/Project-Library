@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  flex-direction: column;
+  position: relative;
+  margin-left: 16px;
+  background-color: gray;
+  width: 400px;
+  height: 200px;
+  justify-content: start;
+  border-radius: 16px;
+  gap: 16px;
+}
+.form {
+  height: 550px;
+  width: 370px;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  border: 1px solid gray;
+}
+.form h3 {
+  align-self: center;
+}
