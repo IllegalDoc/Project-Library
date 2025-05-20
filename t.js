@@ -56,5 +56,11 @@ form.addEventListener("submit", (e) => {
   } else {
     addBook();
     console.log(MyLibrary);
+    document.querySelector("div.form").style.display = "none";
   }
+});
+
+const plusbutton = document.querySelector("div.addnewbook");
+plusbutton.addEventListener("click", (e) => {
+  document.querySelector("div.form").style.display = "flex";
 });
